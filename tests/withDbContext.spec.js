@@ -1,4 +1,4 @@
-const { withDbContext } = require('./withDbContext')
+const { withDbContext } = require('../src/withDbContext')
 
 describe('functional suite', () => {
   let dbCtx = withDbContext({

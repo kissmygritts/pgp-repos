@@ -1,5 +1,5 @@
-const { helpers } = require('./pgp')
-const { select } = require('./select')
+const { helpers } = require('../src/pgp')
+const { select } = require('../src/select')
 
 describe('select function', () => {
   const table = 'user'

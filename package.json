@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint src/**",
-    "test": "jest src --watch",
+    "test": "jest tests --watch",
     "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
   },
   "devDependencies": {

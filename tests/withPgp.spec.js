@@ -1,4 +1,4 @@
-const { withPgp } = require('./withPgp')
+const { withPgp } = require('../src/withPgp')
 
 describe('withPgp function', () => {
   let repo = {}

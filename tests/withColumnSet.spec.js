@@ -1,6 +1,6 @@
-const { helpers } = require('./pgp')
+const { helpers } = require('../src/pgp')
 const ColumnSet = helpers.ColumnSet
-const { withColumnSet } = require('./withColumnSet')
+const { withColumnSet } = require('../src/withColumnSet')
 
 describe('withColumnSet functions', () => {
   const table = 'user'
