@@ -63,8 +63,7 @@ describe('findBatch', () => {
   })
 
   test('when fully applied it should return a sql statement', () => {
-    expect(findBatch(repo)(batch))
-      .toBe(`select * from "user" where "id" in (1,2,3)`)
+    expect(findBatch(repo)(batch)).toBe(`select * from "user" where "id" in (1,2,3)`)
   })
 })
 
