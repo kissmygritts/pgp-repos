@@ -1,13 +1,15 @@
 const { helpers } = require('../src/pgp')
-const { select } = require('../src/select')
-const { find } = require('../src/find')
-const { findBatch } = require('../src/findBatch')
-const { insert } = require('../src/insert')
-const { update } = require('../src/update')
-const { values } = require('../src/values')
-const { sets } = require('../src/sets')
-const { destroy } = require('../src/destroy')
-const { partialUpdate } = require('../src/partialUpdate')
+const {
+  select,
+  find,
+  findBatch,
+  insert,
+  update,
+  values,
+  sets,
+  destroy,
+  partialUpdate
+} = require('../src/formatters')
 
 const table = 'user'
 const fields = ['id', 'first_name', 'last_name', 'position']
